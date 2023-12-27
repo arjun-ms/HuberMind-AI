@@ -10,10 +10,12 @@ api_port = int(os.environ.get("PORT", 8080))
 
 
 # Set the title of the app
-st.title("Ask Andrew!")
+# st.title("HuberMind AI ⚗️")
+
+st.markdown("<h1 style='text-align: center'>HuberMind AI ⚗️</h1>", unsafe_allow_html=True)
 
 # Create a text input for the user to enter their question
-question = st.text_input("Enter your question:")
+question = st.text_input("Ask Andrew:")
 
 # Create a button for submitting the question
 if st.button("Submit") or question:
