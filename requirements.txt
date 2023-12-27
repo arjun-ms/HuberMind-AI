@@ -1,0 +1,8 @@
+pathway
+llm-app
+streamlit
+python-dotenv
+tiktoken
+requests
+unstructured[all-docs]==0.10.15
+requests
