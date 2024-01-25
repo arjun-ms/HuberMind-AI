@@ -8,7 +8,11 @@ load_dotenv()
 api_host = os.environ.get("HOST", "api")
 api_port = int(os.environ.get("PORT", 8080))
 
-
+# Set page title and favicon
+st.set_page_config(
+    page_title="HuberMind AI", 
+    page_icon="⚗️",  # You can use an emoji or a path to an image file
+)
 # Set the title of the app
 # st.title("HuberMind AI ⚗️")
 
