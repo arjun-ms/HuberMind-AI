@@ -6,7 +6,7 @@ HuberMind AI is an innovative tool inspired by the expertise of neuroscientist *
 
 See how the tool works:
 
-![HuberMind-AI demo](......)
+![HuberMind-AI demo](https://github.com/arjun-ms/HuberMind-AI/assets/64315213/34560616-4b29-4129-a494-63ae6d53fe70)
 
 ## How to run the tool
 #### Prerequisites
