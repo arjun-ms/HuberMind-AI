@@ -37,11 +37,13 @@ Remember to keep your API Key secure and never share it publicly.
 
 1. Rename the `.env_sample` file in the root directory of the project to `.env`. Replace the `OPENAI_API_TOKEN` configuration value with your key `{OPENAI_API_KEY}`. Other properties are optional to change and be default.
 
-2. From the project root folder, open your terminal and run `docker compose build`.
+2. Run the transcriber.py file to get transcripts for all the videos in the youtube channel.
 
-3. Run `docker compose up` to start the app.
+3. From the project root folder, open your terminal and run `docker compose build`.
 
-4. Navigate to `localhost:8501` on your browser when docker installion is successful.
+4. Run `docker compose up` to start the app.
+
+5. Navigate to `localhost:8501` on your browser when docker installion is successful.
 
 ### Run from the source
 
@@ -82,7 +84,15 @@ Install the required packages:
 pip install --upgrade -r requirements.txt
 ```
 
-#### Step 5: Run the Pathway API
+#### Step 5: Run the YouTube Transcript Transcriber
+
+To download and save YouTube video transcripts, execute `transcriber.py`:
+
+```bash
+python transcriber.py
+```
+
+#### Step 6: Run the Pathway API
 
 You start the application by running `main.py`:
 
@@ -90,7 +100,7 @@ You start the application by running `main.py`:
 python main.py
 ```
 
-#### Step 6: Run Streamlit UI
+#### Step 7: Run Streamlit UI
 
 You can run the UI separately by running Streamlit app:
 ```bash
