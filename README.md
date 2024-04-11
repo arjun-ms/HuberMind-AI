@@ -5,9 +5,7 @@ HuberMind AI is an innovative tool inspired by the expertise of neuroscientist *
 ## Demo
 
 See how the tool works:
-<video src="assets/andrew-huberman.mp4" controls="controls">
-Your browser does not support the video tag.
-</video>
+[![HuberMind AI](https://github.com/arjun-ms/HuberMind-AI/assets/64315213/2ad23f74-4fdc-401c-9469-eb092f169a48)](assets/andrew-huberman.mp4)
 
 ## How to run the tool
 #### Prerequisites
